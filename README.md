@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with React Router v6's `useLocation` hook: stale location data when used outside of a directly nested route. The `staleLocationBug.js` file shows the incorrect usage, leading to inaccurate location information.  The `staleLocationSolution.js` file provides a solution using techniques like context or passing location data down as props.
